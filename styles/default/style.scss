@@ -1,0 +1,60 @@
+body {
+    background-color: #F1F9FF;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    // grid-template-areas: 
+    grid-template-columns: 100%;
+    grid-template-rows: 100px auto;
+    grid-template-areas:
+        "header"
+        "title"
+        "content"
+    ;   
+}
+
+nav {
+    grid-area: header;
+    background-color: #2699FB;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+main {
+    grid-area: title;
+    background-color: #BCE0FD;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    
+
+    img {
+        
+        height: 340px;
+        width: 420px;
+    }
+}
+
+section {
+    grid-area: content;
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+article {
+    padding: 10px;
+}
+
+
+// White #FFFFFF
+// Light Blue #F1F9FF
+// Mid Blue #BCE0FD
+// Blue #7FC4FD
+// Dark Blue #2699FB
