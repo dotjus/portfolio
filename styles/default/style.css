@@ -56,11 +56,12 @@ main img {
   text-align: left;
   background-color: #BCE0FD;
   font-size: 1.25em;
+  letter-spacing: 2px;
   font-family: sans-serif;
   color: #2699FB;
 }
 
-section {
+.portfolio-grid {
   grid-area: content;
   display: flex;
   flex-direction: row;
@@ -134,6 +135,7 @@ article img {
   padding: 1em;
   background-color: #f1f9ff;
   font-style: italic;
+  letter-spacing: 2px;
 }
 
 /*# sourceMappingURL=style.css.map */
