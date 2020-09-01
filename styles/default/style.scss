@@ -1,9 +1,29 @@
+h1 {
+    margin: 0px;
+    padding: 0px;
+}
+
+p {
+    margin: 0px;
+    padding: 2px; 
+}
+
+img {
+    margin: 0px;
+    padding: 0px; 
+}
+
+div {
+    margin: 0px;
+    padding: 0px; 
+}
+
 body {
-    background-color: #F1F9FF;
-    padding: 0;
-    margin: 0;
+    background-color: #FFFFFF;
+    padding: 0px;
+    margin: 0px;
     display: grid;
-    // grid-template-areas: 
+    grid-row-gap: 10px;
     grid-template-columns: 100%;
     grid-template-rows: 100px auto;
     grid-template-areas:
@@ -23,35 +43,106 @@ nav {
 
 main {
     grid-area: title;
-    background-color: #BCE0FD;
-
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    
 
+    
     img {
-        
         height: 340px;
-        width: 420px;
+        width: 410px;
     }
+}
+
+.blurbbox {
+    width: 370px;
+    padding: 1em;
+    text-align: left;
+    background-color: #BCE0FD;
+    font-size: 1.25em;
+    font-family: sans-serif;
+    color: #2699FB;
+    
 }
 
 section {
     grid-area: content;
-    margin: 10px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+    margin: 0px;
+    padding: 0px;
+    align-content: space-around;
 }
 
 article {
-    padding: 10px;
+    margin: 0px;
+    padding: 0px;
+    height: 410px;
+
+    img {
+        height: 410px;
+        width: 410px;
+        margin: 0px;
+        padding: 0px;
+    }
 }
 
+.container {
+    position: relative;
+    text-align: left;
+    margin: 0px;
+    padding: 0px;
+  }
+
+.portfolio-bottom-left {
+    position: absolute;
+    bottom: 25px;
+    left: 20px;
+    font-size: 1.5em;
+    font-family: sans-serif;
+    color: #2699FB;
+    padding: 1em;
+    background-color: #F1F9FF;
+}
+
+.reference-bottom-left {
+    position: absolute;
+    bottom: 50px;
+    left: 20px;
+    font-size: 1.5em;
+    font-family: sans-serif;
+    color: #2699FB;
+    padding: 1em;
+    background-color: #F1F9FF;
+}
+
+.bottom-left-sub {
+    position: absolute;
+    bottom: 25px;
+    left: 20px;
+    font-size: 1em;
+    font-family: sans-serif;
+    color: #2699FB;
+    padding: 1em;
+    background-color: #F1F9FF;
+}
+
+.reference-text {
+    position: absolute;
+    top: 25px;
+    left: 20px;
+    right: 20px;
+    font-size: 1.25em;
+    font-family: sans-serif;
+    color: #2699FB;
+    padding: 1em;
+    background-color: #f1f9ff;
+    font-style: italic;
+}
 
 // White #FFFFFF
 // Light Blue #F1F9FF
