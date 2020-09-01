@@ -1,27 +1,15 @@
-h1 {
+* {
     margin: 0px;
     padding: 0px;
 }
 
 p {
-    margin: 0px;
+
     padding: 2px; 
-}
-
-img {
-    margin: 0px;
-    padding: 0px; 
-}
-
-div {
-    margin: 0px;
-    padding: 0px; 
 }
 
 body {
     background-color: #FFFFFF;
-    padding: 0px;
-    margin: 0px;
     display: grid;
     grid-row-gap: 10px;
     grid-template-columns: 100%;
@@ -68,30 +56,6 @@ main {
     
 }
 
-.portfolio-grid {
-    grid-area: content;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: 0px;
-    padding: 0px;
-    align-content: space-around;
-}
-
-article {
-    margin: 0px;
-    padding: 0px;
-    height: 410px;
-
-    img {
-        height: 410px;
-        width: 410px;
-        margin: 0px;
-        padding: 0px;
-    }
-}
-
 .container {
     position: relative;
     text-align: left;
@@ -99,16 +63,7 @@ article {
     padding: 0px;
   }
 
-.portfolio-bottom-left {
-    position: absolute;
-    bottom: 25px;
-    left: 20px;
-    font-size: 1.5em;
-    font-family: sans-serif;
-    color: #2699FB;
-    padding: 1em;
-    background-color: #F1F9FF;
-}
+
 
 .reference-bottom-left {
     position: absolute;
@@ -132,6 +87,16 @@ article {
     background-color: #F1F9FF;
 }
 
+
+.portfolio-grid {
+    grid-area: content;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-around;
+}
+
 .reference-text {
     position: absolute;
     top: 25px;
@@ -144,6 +109,15 @@ article {
     background-color: #f1f9ff;
     font-style: italic;
     letter-spacing: 2px
+}
+
+.vlog {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    padding: 1em;
 }
 
 // White #FFFFFF
