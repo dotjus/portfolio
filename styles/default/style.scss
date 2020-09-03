@@ -39,15 +39,15 @@ main {
 
     
     img {
-        height: 340px;
-        width: 410px;
+        
+        width: 70%;
     }
 }
 
 .blurbbox {
-    width: 370px;
-    padding: 1em;
-    text-align: left;
+    width: 60%;
+    padding: 5%;
+    text-align: center;
     background-color: #BCE0FD;
     font-size: 1.25em;
     letter-spacing: 2px;
@@ -61,9 +61,13 @@ main {
     text-align: left;
     margin: 0px;
     padding: 0px;
+    height: 410px;
+
+    img {
+        height: 410px;
+        width: 410px;
+    }
   }
-
-
 
 .reference-bottom-left {
     position: absolute;
@@ -117,8 +121,8 @@ main {
     flex-wrap: wrap;
     justify-content: center;
     align-content: center;
-    padding: 1em;
 }
+
 
 // White #FFFFFF
 // Light Blue #F1F9FF

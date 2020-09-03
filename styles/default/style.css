@@ -55,14 +55,13 @@ main {
 }
 
 main img {
-  height: 340px;
-  width: 410px;
+  width: 70%;
 }
 
 .blurbbox {
-  width: 370px;
-  padding: 1em;
-  text-align: left;
+  width: 60%;
+  padding: 5%;
+  text-align: center;
   background-color: #BCE0FD;
   font-size: 1.25em;
   letter-spacing: 2px;
@@ -75,6 +74,12 @@ main img {
   text-align: left;
   margin: 0px;
   padding: 0px;
+  height: 410px;
+}
+
+.container img {
+  height: 410px;
+  width: 410px;
 }
 
 .reference-bottom-left {
@@ -148,6 +153,5 @@ main img {
           justify-content: center;
   -ms-flex-line-pack: center;
       align-content: center;
-  padding: 1em;
 }
 /*# sourceMappingURL=style.css.map */
