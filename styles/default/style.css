@@ -152,4 +152,66 @@ iframe {
   width: 70%;
   height: 400px;
 }
+
+.contact-items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.contact-item {
+  width: 60%;
+  padding: 5%;
+  text-align: left;
+  background-color: #BCE0FD;
+  font-size: 1.25em;
+  letter-spacing: 2px;
+  font-family: sans-serif;
+  color: #2699FB;
+}
+
+.social-items-test {
+  width: 60%;
+  padding: 5%;
+  text-align: center;
+  background-color: #BCE0FD;
+  font-size: 1.25em;
+  letter-spacing: 2px;
+  font-family: sans-serif;
+  color: #2699FB;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.social-items {
+  max-width: 800px;
+  display: block;
+}
+
+.fab {
+  padding: 10px;
+  font-size: 2em;
+  width: 10%;
+  text-align: center;
+  margin: 10px 10px;
+  -webkit-transform: scale(1.25);
+          transform: scale(1.25);
+  background: #3B5998;
+  color: white;
+}
+
+.fab:hover {
+  opacity: 0.7;
+}
 /*# sourceMappingURL=style.css.map */
