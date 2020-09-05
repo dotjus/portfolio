@@ -214,4 +214,14 @@ iframe {
 .fab:hover {
   opacity: 0.7;
 }
+
+.portfolio-img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+}
 /*# sourceMappingURL=style.css.map */
