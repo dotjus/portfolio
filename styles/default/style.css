@@ -32,6 +32,13 @@ nav {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  font-size: 1.7em;
+  color: #F1F9FF;
+}
+
+.on-this-page {
+  font-weight: bold;
+  color: white;
 }
 
 main {
