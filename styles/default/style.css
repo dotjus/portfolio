@@ -65,7 +65,7 @@ main img {
   width: 70%;
 }
 
-.blurbbox {
+.blurb-box {
   width: 60%;
   padding: 5%;
   text-align: center;
@@ -76,7 +76,7 @@ main img {
   color: #2699FB;
 }
 
-.portfolio-grid {
+.portfolio-flex {
   -ms-grid-row: 3;
   -ms-grid-column: 1;
   grid-area: content;
@@ -188,7 +188,7 @@ iframe {
   color: #2699FB;
 }
 
-.social-items-test {
+.social-items {
   width: 60%;
   padding: 5%;
   text-align: center;
@@ -199,11 +199,6 @@ iframe {
   color: #2699FB;
   -ms-flex-line-pack: center;
       align-content: center;
-}
-
-.social-items {
-  max-width: 800px;
-  display: block;
 }
 
 .fab {
